@@ -26,7 +26,7 @@ UI.shearchForm.addEventListener('submit', (ev) => {
         UI.divResult.textContent = letter;
       } else {
         //   la letra de la cancion no existe
-        UI.divMessage.innerHTML = 'La canción no existe :(, ¡prueba con otra!';
+        UI.divMessage.innerHTML = 'La canción no existe  😩 , ¡prueba con otra!';
         UI.divMessage.classList.add('error');
         setTimeout(() => {
           UI.divMessage.innerHTML = '';
